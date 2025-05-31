@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #386641;
+}
+
+h1 {
+  color: #ffa33a;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.grouptable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  height: 70vh;
+  width: 95%;
+}
+
+#group {
+  width: 100%;
+  background-color: #ffa33a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.group-caption {
+  width: 100%;
+  height: 2rem;
+  background-color: #ffa33a;
+  padding: 1rem 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  background-color: #ffa33a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+tr {
+  height: 3rem;
+  text-align: center;
+}
+
+.team {
+  width: 10rem;
+}
+
+.num {
+  width: 4rem;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.schedule {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  height: 70vh;
+  width: 95%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.schedule-caption {
+  width: 100%;
+  height: 2rem;
+  background-color: #ffa33a;
+  padding: 1rem 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gamebox {
+  padding-left: 1rem;
+  text-align: left;
+  width: 11rem;
+}
+
+.gamenum {
+  width: 4rem;
+}
+
+/* Media Quaries */
+@media (max-width: 615px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .grouptable {
+    height: 250vh;
+    width: 83%;
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .group-caption {
+    font-size: 1.2rem;
+  }
+
+  .team {
+    width: 11rem;
+  }
+
+  .num {
+    width: 3rem;
+  }
+
+  .schedule {
+    height: 820vh;
+    width: 83%;
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .schedule-caption {
+    font-size: 1.1rem;
+  }
+
+  .gamebox {
+    width: 15rem;
+  }
+
+  .gamenum {
+    width: 5rem;
+  }
+}
